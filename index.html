@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Frontend Mentor | Chat App Css Illustration</title>
+</head>
+<body>
+
+  <main>
+    <section class="text-content">
+      <h1>Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </section>
+
+    <div class="phone">
+      <div class="phone-up">
+        <div class="phone-up__left">
+          <i class="fas fa-chevron-left"></i>
+          <div class="profile">
+            <img src="./images/avatar.jpg" alt="portrait of samuel green">
+            <section class="profile-desc">
+              <h2>Samuel Green</h2>
+              <p>Available to Walk</p>
+            </section>
+          </div>
+        </div>
+        <div class="phone-up__right">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+
+      <div class="phone-middle">
+        <p>That sounds great. I'd be happy <span id="mob-text">to discuss more</span><span id="desk-text">with that</span>.</p>
+        <p>Could you send over some pictures of your dog, please?</p>
+        <div class="phone-middle__right">
+          <div class="phone-middle__images">
+          <img src="./images/dog-image-1.jpg" alt="A happy dog">
+          <img src="./images/dog-image-2.jpg" alt="A dog sitting in the sand">
+          <img src="./images/dog-image-3.jpg" alt="Dog carrying a branch">
+        </div>
+        <p class="right">Here are a few pictures. She's a happy girl!</p>
+        <p class="right">Can you make it?</p>
+        </div>
+        <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+      </div>
+      <form action="#" class="phone-bottom">
+        <section class="walk">
+          <label for="half-our-walk">
+            <input type="radio" id="half-our-walk" name="walk">
+            <span>30 minute walk</span>
+          </label>
+          <h2>$29</h2>
+        </section>
+        <section class="walk">
+          <label for="hour-walk">
+            <input type="radio" id="hour-walk" name="walk">
+            <span>1 hour walk</span>
+          </label>
+          <h2>$49</h2>
+        </section>
+        <div class="send-msg">
+          <input type="text" placeholder="Type a message...">
+          <button type="submit"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.facebook.com/drougnov.bd.9">Biplob Barua Rocky</a>.
+  </footer>
+
+</body>
+</html>
